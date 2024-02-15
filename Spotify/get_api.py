@@ -70,4 +70,3 @@ def get_spotify_access_token():
 
 
 api_needs_refresh(PATH)
-# get_spotify_access_token()
