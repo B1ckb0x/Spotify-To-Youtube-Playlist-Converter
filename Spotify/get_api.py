@@ -10,18 +10,14 @@ def api_needs_refresh(file_path=PATH):
     # Check file modification time to compare with current time to check if api is expired
     modification_time = os.path.getmtime(file_path)
     dt_m = datetime.datetime.fromtimestamp(modification_time)
-    # print(f"Modified on: {dt_m}")
 
     current_time = datetime.datetime.now()
-    # print(current_time)
 
     time_difference = current_time - dt_m
-    # print(time_difference)
 
     if time_difference.total_seconds() > 3000:
         get_spotify_access_token()
     else:
-        # print("Can still use file")
         with open(file_path) as file:
             return file.read()
 
@@ -70,4 +66,3 @@ def get_spotify_access_token():
 
 
 api_needs_refresh(PATH)
-# Still testing pycharm
