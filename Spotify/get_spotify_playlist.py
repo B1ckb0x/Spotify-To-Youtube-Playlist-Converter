@@ -1,8 +1,4 @@
-import json
-import webbrowser
-
 import requests
-from bs4 import BeautifulSoup
 
 from Spotify.get_api import api_needs_refresh
 
@@ -20,14 +16,12 @@ headers = {
 response = requests.get(url, headers=headers)
 json_data = response.json()
 
-
 track_names = [item['track']['name'] for item in json_data['items']]
 print("Track Names: ", track_names)
 
 with open('track_names.txt', 'w', encoding='utf-8') as file:
     for name in track_names:
         file.write(name + "\n")
-
 
 # json_format = json.dumps(json_data, indent=2)
 # html_content = f"<pre>{json_format}</pre>"

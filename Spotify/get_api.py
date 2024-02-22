@@ -21,7 +21,7 @@ def api_needs_refresh(file_path=PATH):
     if time_difference.total_seconds() > 3000:
         get_spotify_access_token()
     else:
-        #print("Can still use file")
+        # print("Can still use file")
         with open(file_path) as file:
             return file.read()
 
