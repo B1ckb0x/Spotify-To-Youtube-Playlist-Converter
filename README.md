@@ -28,6 +28,4 @@ ytmusicapi~=1.5.2
 
 Please follow the video tutorial below for step-by-step instructions:
 
-<video width="320" height="240" controls>
-  <source src="http://player.vimeo.com/video/3873878">
-</video>
+Video URL: https://vimeo.com/919893537?share=copy
