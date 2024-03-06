@@ -29,3 +29,5 @@ ytmusicapi~=1.5.2
 Please follow the video tutorial below for step-by-step instructions:
 
 Video URL: https://vimeo.com/919893537?share=copy
+
+Sorry for no speech, will work on a new video with speech enabled and upload on youtube 
