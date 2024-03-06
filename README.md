@@ -28,4 +28,4 @@ ytmusicapi~=1.5.2
 
 Please follow the video tutorial below for step-by-step instructions:
 
-[<div style="padding:56.15% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/919893537?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Recording 2024-03-05 234122"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>](https://vimeo.com/919893537?share=copy)https://vimeo.com/919893537?share=copy
+<iframe title="vimeo-player" src="https://player.vimeo.com/video/919893537?h=58b382d07b" width="640" height="360" frameborder="0"    allowfullscreen></iframe>
