@@ -28,4 +28,6 @@ ytmusicapi~=1.5.2
 
 Please follow the video tutorial below for step-by-step instructions:
 
-<iframe title="vimeo-player" src="https://player.vimeo.com/video/919893537?h=58b382d07b" width="640" height="360" frameborder="0"    allowfullscreen></iframe>
+<video width="320" height="240" controls>
+  <source src="http://player.vimeo.com/video/3873878">
+</video>
